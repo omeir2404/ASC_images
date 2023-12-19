@@ -14,7 +14,7 @@ filterAscii:
     ; Process each character
     .loop:
         ; Load character into AL
-        mov al, [rdi]
+        movzx eax, byte [rdi] ; Load one character into eax
 
         ; Check if character is in printable ASCII range
         cmp al, 32
