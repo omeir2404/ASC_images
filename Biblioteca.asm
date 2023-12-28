@@ -238,3 +238,5 @@ errorOnWrite:
     mov rdi, errMsgWrite
     call printStrLn
     call terminate
+
+

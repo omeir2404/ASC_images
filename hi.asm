@@ -12,18 +12,14 @@ section .text
 _start:
 mov RDI, hi
 call printStrLn
-xor RDI, RDI
-xor RSI, RSI
-xor RAX, RAX
+
 mov RDI, fileName
 mov RSI, buffer
 call readTextFile
+
 mov RDI, buffer
 call printStrLn
-xor RDI, RDI
-xor RSI, RSI
-xor RAX, RAX
-xor RDX, RDX
+
 
 
 ; Additional sections can be added as needed

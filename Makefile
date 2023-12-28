@@ -26,7 +26,7 @@ $(NAME):
 
 run:	all
 	@echo "$(YELLOW)Running ${CLR_RMV}${RED}Detetar ${CLR_RMV}"
-	@./$(NAME) fcul_mod_R.bmp
+	@./$(NAME) S fcul_mod_S.bmp
 
 clean:		
 	@rm -f $(OBJ)
